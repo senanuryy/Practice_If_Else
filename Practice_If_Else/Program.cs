@@ -17,11 +17,14 @@ namespace PracticeIfElse
             {  
                 Console.WriteLine("Girilen sayi 10'dan buyuktur.");                                  
             }
-            else
+            else if (sayi < 10)
             { 
                 Console.WriteLine("Girilen sayi 10'dan kucuktur.");
             }
-
+            else
+            { 
+                Console.WriteLine("Girilen sayi 10'a eşittir."); 
+            }
             if (sayi % 2 == 0)
             {
                 Console.WriteLine("Girilen sayi cifttir.");
